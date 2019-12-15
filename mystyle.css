@@ -33,7 +33,7 @@ main{
 }
 
 .logo-container{
-    text-align: left;
+    text-align: center;
     padding: 10px 15px;
 }
 
@@ -173,7 +173,7 @@ main{
     background: none;
     border: 4px solid #E7E7E7;
     color: #E7E7E7;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 62%;
 }
@@ -448,8 +448,6 @@ footer{
     background-color: #E7C34F;
 }
 
-/***PRODUCTS/RECIPES SUBPAGE***/
-
 
 /***PRODUCT ITEM SUBPAGE***/
 
@@ -560,7 +558,7 @@ footer{
     height: 16px;
     border-radius: 50%;
     border: 2px solid #F5F7FA;
-    background-color: #0DBE9A;
+    background-color: #592C22;
     margin-top: 10px;
     z-index: 95;
 }
@@ -578,9 +576,9 @@ footer{
     color: #E7C34F;
 }
 
-.timeline-content span{
+.timeline-content p{
     font-size: 15px;
-    color: #a4a4a4;
+    color: #e7e7e7;
 }
 
 .timeline-content ul{
@@ -644,6 +642,10 @@ footer{
       float: left;
       direction: rtl;
    }
+    
+    .top-check{
+        margin-top: 40%;
+    }
 
 }
 
@@ -709,11 +711,15 @@ footer{
     }
 
     .top-text h1{
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .top-text p{
         font-size: 30px;
+    }
+    
+    .top-check{
+        margin-top: 40%;
     }
 
     .about-me-container{
@@ -808,6 +814,10 @@ footer{
     .recipes{
         width: 350px;
         height: 300px;
+    }
+    
+    .top-check{
+        margin-top: 30%;
     }
 
     /**.bc-big{

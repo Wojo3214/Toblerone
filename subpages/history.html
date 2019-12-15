@@ -48,29 +48,54 @@
                 <div class="history-container">
                     <div class="time_line">
                         <div class="timeline-block timeline-block-right">
-                              <div class="marker"></div>
-                              <div class="timeline-content">
-                                 <h3>LOREM IPSUM</h3>
-                                 <span>Chocolate transport to Europe</span><br>
-                                 <span>1490</span>
-                                 <ul>
-                                     <li>Lorem IPSUM</li>
-                                 </ul>
-                              </div>
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>Mexico</h3>
+                                <p>History of chocolate starts in Latin America, where cacao trees grown wild probably in what is today southeast Mexico.</p>
+                            </div>
                         </div>
-
-                       <div class="timeline-block timeline-block-left">
-                          <div class="marker"></div>
-                          <div class="timeline-content">
-                             <h3>Apprentice</h3>
-                             <span>Idea4me</span><br>
-                             <span>Fabruary 2018 - March 2018</span>
-                             <ul>
-                                 <li> Including SEO</li>
-                                 <li>Writing articles for the company’s blog in order to rank its site in Google search result</li>
-                             </ul>
-                          </div>
-                       </div>
+                        <div class="timeline-block timeline-block-left">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>Spain, 1502</h3>
+                                <p>Somehow cacao beans arrived to Spain around 1502, which began importing chocolate to Europe.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-block timeline-block-right">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>Europe, 1585</h3>
+                                <p>Chocolate mania spread throughout Europe in 1585. With the high demand for chocolate came chocolate plantations. Europeans started to create other varieties of hot chocolate with cane sugar, cinnamon and other common spices and flavourings.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-block timeline-block-left">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>England</h3>
+                                <p>In short amount of time chocolate houses were perfectly known in London, Amsterdam and other European cities.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-block timeline-block-right">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>US, 1641</h3>
+                                <p>Chocolate arrived then to Florida in 1641 and in 1773 became a main import goods and it could be enjoyed by people of all classes</p>
+                            </div>
+                        </div>
+                        <div class="timeline-block timeline-block-left">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>Netherlands, 1828</h3>
+                                <p>In 1828, Dutch chemist Coenraad Johannes van Houten discovered a way to make a powdered chocolate, what made it easier to mix with water.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-block timeline-block-right">
+                            <div class="marker"></div>
+                            <div class="timeline-content">
+                                <h3>England, 1847</h3>
+                                <p>In 1847, British chocolatier J.S. Fry created the first chocolate bar made of sugar, cocoa butter and chocolate liquor. From now chocolate was known not only as a beverage.</p>
+                            </div>
+                        </div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
@@ -100,6 +125,12 @@
                 e.preventDefault();
                     $(".nav-content").not(".nav-content").slideDown();
                     $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".history-item" ).click(function(e) {
+                e.preventDefault();
+                    $(".subnav").not(".subnav").slideDown();
+                    $( ".subnav" ).slideToggle( "slow", function() {
                 });
              });
          });

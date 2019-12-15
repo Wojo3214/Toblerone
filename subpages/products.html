@@ -51,23 +51,21 @@
                     </div>
                 </article>
                 <article class="product-content choco">
-                    <img src="../img/toblerone-blue.png" alt="">
+                    <img src="../img/toblerone-blue.png" alt="toblerone-blue">
                     <div class="product-name">
                         <h3>White chocolate</h3>
                         <a href="#" class="product-choco"></a>
                     </div>
                 </article>
                 <article class="product-content choco">
-                    <img src="../img/toblerone-dark.png" alt="backpack">
-                    <a href="#" class="article-country"></a>
+                    <img src="../img/toblerone-dark.png" alt="toblerone-dark">
                     <div class="product-name">
                         <h3>Dark chocolate</h3>
                         <a href="#" class="product-choco"></a>
                     </div>
                 </article>
                 <article class="product-content choco">
-                    <img src="../img/toblerone-fruit.png" alt="backpack">
-                    <a href="#" class="article-country"></a>
+                    <img src="../img/toblerone-fruit.png" alt="toblerone-fruit">
                     <div class="product-name">
                         <h3>Fruit chocolate</h3>
                         <a href="#" class="product-choco"></a>
@@ -100,6 +98,12 @@
                 e.preventDefault();
                     $(".nav-content").not(".nav-content").slideDown();
                     $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".history-item" ).click(function(e) {
+                e.preventDefault();
+                    $(".subnav").not(".subnav").slideDown();
+                    $( ".subnav" ).slideToggle( "slow", function() {
                 });
              });
          });

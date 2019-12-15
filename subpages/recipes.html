@@ -47,21 +47,21 @@
             </header>
             <div class="product-container">
                 <article class="product-content recipes">
-                    <img src="../img/cheesecake1.jpg" alt="dessert">
+                    <img src="../img/cheesecake1.jpg" alt="cheesecake-dessert">
                     <div class="product-name">
                         <h3>Cheesecake</h3>
                         <a href="cheesecake.html" class="product-choco"></a>
                     </div>
                 </article>
                 <article class="product-content recipes">
-                    <img src="../img/dessert1.jpg" alt="dessert">
+                    <img src="../img/dessert1.jpg" alt="pudding-dessert">
                     <div class="product-name">
                         <h3>Almond Brittle Pudding</h3>
                         <a href="#" class="product-choco"></a>
                     </div>
                 </article>
                 <article class="product-content recipes">
-                    <img src="../img/cake.jpg" alt="dessert">
+                    <img src="../img/cake.jpg" alt="cake-dessert">
                     <a href="#" class=""></a>
                     <div class="product-name">
                         <h3>Toblerone cake</h3>
@@ -89,6 +89,18 @@
                 e.preventDefault();
                     $(".nav-content").not(".nav-content").slideUp();
                     $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".close" ).click(function(e) {
+                e.preventDefault();
+                    $(".nav-content").not(".nav-content").slideDown();
+                    $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".history-item" ).click(function(e) {
+                e.preventDefault();
+                    $(".subnav").not(".subnav").slideDown();
+                    $( ".subnav" ).slideToggle( "slow", function() {
                 });
              });
          });

@@ -50,7 +50,7 @@
                         <img src="../img/toblerone.png" alt="Milk-toblerone-chocolate">
                     </div>
                     <hr>
-                    <div class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet mi dolor, eu semper lacus hendrerit at. Cras commodo justo et tellus viverra ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras scelerisque viverra faucibus. Vestibulum elementum imperdiet sollicitudin. Praesent quis vestibulum mi.</p>
+                    <div class="product-text">Milk chocolate with honey and almond nougat is a classic in the Toblerone portfolio. For over 100 years, it has been produced according to an unchanged recipe from the highest quality products: cocoa beans, Alpine milk, honey, chopped almonds and nougat from Montelimar, which give Toblerone an intense aroma and excellent taste. This delicious chocolate is available in several formats 35 g, 50 g, 100 g and as mini chocolates in a family package of 200 g.</p>
 
                 </div>
             </div>
@@ -80,6 +80,12 @@
                 e.preventDefault();
                     $(".nav-content").not(".nav-content").slideDown();
                     $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".history-item" ).click(function(e) {
+                e.preventDefault();
+                    $(".subnav").not(".subnav").slideDown();
+                    $( ".subnav" ).slideToggle( "slow", function() {
                 });
              });
          });

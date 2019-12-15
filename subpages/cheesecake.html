@@ -47,7 +47,7 @@
                 </header>
                 <div class="product-item ingredient-item">
                     <div class="product-item-img">
-                        <img src="../img/cheesecake1.jpg" alt="Milk-toblerone-chocolate">
+                        <img src="../img/cheesecake1.jpg" alt="cheesecake-dessert">
                         <div class="ingredients">
                             <ul>
                                 <li>Lorem Ipsum</li>
@@ -93,6 +93,12 @@
                 e.preventDefault();
                     $(".nav-content").not(".nav-content").slideDown();
                     $( ".nav-content" ).slideToggle( "slow", function() {
+                });
+             });
+             $( ".history-item" ).click(function(e) {
+                e.preventDefault();
+                    $(".subnav").not(".subnav").slideDown();
+                    $( ".subnav" ).slideToggle( "slow", function() {
                 });
              });
          });
