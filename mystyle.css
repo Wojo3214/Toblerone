@@ -310,6 +310,11 @@ h2{
     margin: 0 auto;
 }
 
+.production-process iframe{
+    width: 100%;
+    height: 350px;
+}
+
 /***FRONT PAGE RECIPES***/
 
 .recipes img{
@@ -440,7 +445,7 @@ footer{
 }
 
 .scroll-btn:hover{
-    background-color: #00A48A;
+    background-color: #E7C34F;
 }
 
 /***PRODUCTS/RECIPES SUBPAGE***/
@@ -735,7 +740,7 @@ footer{
         margin-top: 30px;
     }
 
-    .product-item-img, {
+    .product-item-img {
         width: 40%;
     }
 
