@@ -484,13 +484,27 @@ footer{
 
 .ingredients{
     background-color: #e7e7e7;
-    padding: 10px 15px;
+    padding: 10px 35px;
+    box-sizing: border-box;
+}
+
+.ingredients{
+    font-size: 15px;
+    color: #323232;
 }
 
 .ingredient-text{
         margin: 20px;
-        width: 60%;
-    }
+}
+
+.ingredient-text p{
+    margin: 10px 0;
+    color: #323232;
+}
+
+.ingredient-text p:nth-child(1){
+    margin-top: 0px;
+}
 
 /******HISTORY******/
 
@@ -758,7 +772,11 @@ footer{
         margin: 20px;
         width: 60%;
     }
-
+    
+    .ingredient-text{
+        width: 60%;
+    }
+    
     form{
         text-align: center;
     }
